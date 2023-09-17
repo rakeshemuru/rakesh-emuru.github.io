@@ -14,11 +14,10 @@ Provide evidence on the behaviour and characteristics of voter turnout in the US
 Examine voter turnout in the 2020 presidential election, for every county in the USA
 Provide a ML model to predict voter turnout based on current conditions and apply learnings to achieve a higher turnout.
 
-<br/>
-
 [Link to code](https://github.com/rakesh-emuru/Data-Science/blob/main/Projects/Analysis%20and%20Prediction%20of%20Voter%20Turnout%20Percentage%20in%20USA/voter_turnout_prediction.ipynb)
 
 <br/>
+
 ---
 ### Research Assistantship
 [Data Science Research Assistant to Benjamin E. Bagozzi (Asst. Director of Data Science -Univ. of Delaware) 
