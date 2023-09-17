@@ -1,6 +1,6 @@
-## Aniekan Inyang
+## Rakesh Emuru
 
-Hi :wave: , I'm Aniekan, I'm interested in applications of artificial intelligence and AI robotics.
+Hi :wave: , I'm Rakesh, I'm interested in applications of artificial intelligence.
 
 I enjoy travelling and my values are hardwork, respect, rest, structure and organization.
 
@@ -8,5 +8,4 @@ ___
 
 ### Get in touch
 
-- Twiiter: [@\_aniekan\_](https://www.twitter.com/_aniekan_)
 - email: contactaniekan at gmail dot com
