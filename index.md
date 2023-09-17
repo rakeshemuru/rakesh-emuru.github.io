@@ -17,11 +17,12 @@ Provide a ML model to predict voter turnout based on current conditions and appl
 <br/>
 
 [Link to code](https://github.com/rakesh-emuru/Data-Science/blob/main/Projects/Analysis%20and%20Prediction%20of%20Voter%20Turnout%20Percentage%20in%20USA/voter_turnout_prediction.ipynb)
+
 <br/>
 ---
 ### Research Assistantship
 [Data Science Research Assistant to Benjamin E. Bagozzi (Asst. Director of Data Science -Univ. of Delaware) 
-Sep 2023 - Dec 2024](https://github.com/rakesh-emuru)
+Sep 2023 - Dec 2024](https://www.benjaminbagozzi.com/sadl.html)
 <br/>
 • Extracted and organized data from Audio files and 162 inconsistent UNFCCC PDFs (including text and scanned images) 
 accounting for variable column layouts and missing values into a well-structured CSV.
