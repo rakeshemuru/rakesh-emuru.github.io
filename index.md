@@ -23,13 +23,11 @@ Provide a ML model to predict voter turnout based on current conditions and appl
 [Data Science Research Assistant to Benjamin E. Bagozzi (Asst. Director of Data Science -Univ. of Delaware) 
 Sep 2023 - Dec 2024](https://www.benjaminbagozzi.com/sadl.html)
 <br/>
-• Extracted and organized data from Audio files and 162 inconsistent UNFCCC PDFs (including text and scanned images) 
-accounting for variable column layouts and missing values into a well-structured CSV.
+•	Developed an automated process using the Python packages pdfplumber and PyTesseract, to extract and organize data from 162 inconsistent UNFCCC PDFs (including text and scanned images), addressing variable column layouts, missing values, and texts abruptly split into multiple lines, efficiently converting them into a well-structured CSV.
 <br/>
-• Developed BERT and GPT-based models for text classifying into multiple columns, with an accuracy of 83%.
+•	 Engineered an advanced text classification solution in Python using Spacy and Flair NER models, enhanced by custom rules and data dictionaries, to accurately categorize and reconstruct attendee information from diverse, unstructured documents, achieving a 92% accuracy rate.
 <br/>
-• Conducted in-depth analysis of textual data, extracting verbs from the documents, and performing co-occurrence analysis to 
-reveal intricate word relationships and patterns
+•	Contributed to a research paper based on these methodologies, currently under review for publication.
 <br/>
 ### Publications
 
