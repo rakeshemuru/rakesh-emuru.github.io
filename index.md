@@ -1,6 +1,41 @@
 ## Portfolio
 
 ---
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Add some basic styling to the menu */
+        .horizontal-menu {
+            overflow: hidden;
+            background-color: #333; /* Dark background color */
+        }
+
+        .horizontal-menu a {
+            float: left;
+            display: block;
+            color: white; /* Text color */
+            text-align: center;
+            padding: 14px 20px; /* Padding inside each menu item */
+            text-decoration: none; /* Remove underline from links */
+        }
+
+        .horizontal-menu a:hover {
+            background-color: #ddd; /* Light background color on hover */
+            color: black; /* Text color on hover */
+        }
+    </style>
+</head>
+<body>
+
+<div class="horizontal-menu">
+    <a href="YOUR_LINKEDIN_PROFILE_LINK" target="_blank">LinkedIn</a>
+    <a href="https://github.com/rakesh-emuru" target="_blank">GitHub</a>
+    <a href="YOUR_PORTFOLIO_LINK" target="_blank">Portfolio</a>
+    <a href="https://medium.com/@emururakesh" target="_blank">Blog</a>
+</div>
+
 ### Data Sctructures and Algorithms
 
 ### Data Science Projects 
@@ -35,6 +70,8 @@ reveal intricate word relationships and patterns
 
 - [Tech blog](https://medium.com/@emururakesh)
 - [GitHub](https://github.com/rakesh-emuru)
-
+- 
+</body>
+</html>
 ---
 
