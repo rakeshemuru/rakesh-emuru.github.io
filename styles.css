@@ -1,8 +1,7 @@
-body {
+body, html {
+    height: 100%;
     margin: 0;
-    padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
 }
 
 header {
@@ -11,19 +10,18 @@ header {
 
 #navbar ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
+    margin: 0;
     overflow: hidden;
     background-color: #333;
-    text-align: right; /* Align the menu to the right */
 }
 
 #navbar li {
-    display: inline; /* Display the list items inline */
+    float: left;
 }
 
 #navbar li a {
-    display: inline-block;
+    display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -35,11 +33,23 @@ header {
     color: black;
 }
 
-main {
-    padding: 15px;
-    font-size: 1.2em;
+#main-content {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4; /* Change this to any color you like */
+    color: black; /* Change text color as needed */
+    height: calc(100% - 56px); /* Adjust height considering the header */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 h1 {
+    margin: 0 0 10px 0;
     color: #333;
+    font-size: 2.5em; /* Adjust size as needed */
+}
+
+p {
+    font-size: 1.2em; /* Adjust size as needed */
 }
