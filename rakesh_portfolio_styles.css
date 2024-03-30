@@ -271,8 +271,8 @@ footer {
     }
 
     .project-description {
-        font-size: 14px;
-        color: tomato;
+        font-size: 18px;
+        color: green;
     }
 
     @media (max-width: 1200px) {
