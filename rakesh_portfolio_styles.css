@@ -47,18 +47,18 @@ body {
 body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 .top-menu {
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  background-color: white; 
+  background-color: white;
   padding: 10px;
-  width: 100%; 
+  width: 100%;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-  z-index: 1000; 
+  z-index: 1000;
 }
 
 body {
@@ -72,12 +72,12 @@ body {
         .profile-picture {
             margin-top: 50px;
             border-radius: 50%;
-            width: 300px;
-            height: 300px;
+            width: 200px;
+            height: 200px;
             background-size: cover;
             background-position: center;
             display: inline-block;
-            background-image: url('Images/rakesh-emuru-photo.png');
+            background-image: url('C:\\Users\\emuru\\Downloads\\rakesh-emuru-photo.png');
         }
         .typewriter h1 {
             overflow: hidden;
@@ -87,12 +87,12 @@ body {
             letter-spacing: .15em;
             animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
         }
-        
+
         @keyframes typing {
             from { width: 0 }
             to { width: 100% }
         }
-        
+
         @keyframes blink-caret {
             from, to { border-color: transparent }
             50% { border-color: #333 }
@@ -103,15 +103,15 @@ body {
   color: cadetblue;
   text-decoration: none;
   margin: 0 15px;
-  padding: 10px 15px; 
-  border-radius: 5px; 
+  padding: 10px 15px;
+  border-radius: 5px;
   transition: background-color 0.3s ease;
 }
 
 /* Style for hover effect */
 .top-menu a:hover {
-  background-color: #007bff; 
-  color: white; 
+  background-color: #007bff;
+  color: white;
 }
 
 /* Header/Home */
@@ -163,7 +163,7 @@ footer {
   }
   .section {
     padding: 20px;
-    flex-basis: 60%; 
+    flex-basis: 60%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 10px;
     background: #fff;
@@ -217,9 +217,7 @@ footer {
       font-weight: bold;
       margin: 10px 0;
   }
-  .project-description {
-      color: #666;
-  }
+
   .project-category {
       display: inline-block;
       background-color: #007bff;
@@ -238,7 +236,7 @@ footer {
     .project-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr); /* Creates three columns */
-        grid-gap: 20px; 
+        grid-gap: 20px;
     }
 
     .project {
@@ -248,8 +246,8 @@ footer {
         padding: 20px;
         margin: 20px 0;
         transition: transform 0.3s ease-in-out;
-        height: 400px; 
-        position: relative; 
+        height: 400px;
+        position: relative;
     }
 
     .project:hover {
@@ -274,7 +272,7 @@ footer {
 
     .project-description {
         font-size: 14px;
-        color: #666;
+        color: tomato;
     }
 
     @media (max-width: 1200px) {
@@ -470,11 +468,6 @@ footer {
     font-size: 0.8em;
 }
 
-.project-description {
-    padding: 0 15px 15px;
-    color: #666;
-}
-
 .project-info-btn {
     display: block;
     width: 100%;
@@ -493,7 +486,7 @@ footer {
 
 .skills-section {
     margin-top: 40px; x
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
   }
 
 .text-color-1 { color: #FF0000; /* Red */ font-weight: bold; }
@@ -504,8 +497,7 @@ footer {
   display: flex;
   justify-content: center; /* Center the buttons horizontally */
   gap: 100px; /* Adjust the gap between the buttons */
-  padding-top: 20px; /* Add space from the top */
-  margin-top: 150px;
+  margin-top: 30px;
 }
 
 .icon-button {
@@ -521,7 +513,7 @@ footer {
 }
 
 .icon-button.github {
-  background-color: #6e5494; 
+  background-color: #6e5494;
 }
 
 .icon-button.resume {
@@ -533,7 +525,7 @@ footer {
 }
 
 .icon-button:hover {
-  background-color: #555; 
+  background-color: #555;
 }
 
 <!--project -->
@@ -583,8 +575,6 @@ footer {
 .flip-container:hover .flipper {
     transform: rotateY(180deg);
 }
-    </style>
-
 
 .project-link {
   position: relative; /* Anchor for the tooltip positioning */
@@ -611,3 +601,42 @@ footer {
   opacity: 1;
 }
 
+/* Value Proposition Section */
+.value-proposition {
+  background-color: #ffffff; /* Adjust background color to fit your design */
+  color: #333; /* Text color */
+  text-align: left; /* Align text to the left */
+  padding: 20px; /* Add some padding */
+  border-radius: 8px; /* Rounded corners */
+  margin: 40px auto; /* Center it horizontally with some margin */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Soft shadow for depth */
+  max-width: 800px; /* Don't let the section stretch too wide */
+}
+
+.value-proposition h2 {
+  text-align: center; /* Center the heading */
+  color: #007bff; /* Color for the heading */
+  margin-bottom: 20px; /* Space after heading */
+}
+
+.value-proposition ol {
+  list-style: none; /* Remove default list styling */
+  padding-left: 0; /* Align with the container */
+}
+
+.value-proposition li {
+  position: relative; /* Allows absolute positioning of the bullet span */
+  padding-left: 20px; /* Space for the bullet */
+  margin-bottom: 10px; /* Space between list items */
+  font-family: cursive;
+  color: navy;
+}
+
+.value-proposition li span {
+  position: absolute; /* Absolute position the bullet */
+  left: 0; /* Align bullet to the left */
+  font-weight: bold; /* Optionally make the bullet bold */
+  color: #007bff; /* Bullet color */
+}
+
+</style>
