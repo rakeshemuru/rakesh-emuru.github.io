@@ -18,10 +18,8 @@
 }
 
 body {
-  /* Define a gradient background with two or more colors */
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 
-  /* Animate the gradient */
   background-size: 400% 400%;
   animation: animatedBackground 15s ease infinite;
 }
@@ -48,20 +46,19 @@ body {
 }
 body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
-/* Static top center menu bar */
 .top-menu {
-  display: flex; /* Use flexbox for layout */
-  justify-content: center; /* Center items horizontally */
-  align-items: center; /* Center items vertically */
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
   position: fixed;
   top: 0;
-  left: 0; /* Adjusted for full width */
-  right: 0; /* Ensures the menu extends fully across the top */
-  background-color: white; /* Light background for a clean look */
+  left: 0;
+  right: 0;
+  background-color: white; 
   padding: 10px;
-  width: 100%; /* Full width */
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Soft shadow for depth */
-  z-index: 1000; /* Ensure it's above other content */
+  width: 100%; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 1000; 
 }
 
 body {
@@ -80,7 +77,7 @@ body {
             background-size: cover;
             background-position: center;
             display: inline-block;
-            background-image: url('Images/rakesh-emuru-photo.png'); /* Add your image path here */
+            background-image: url('Images/rakesh-emuru-photo.png');
         }
         .typewriter h1 {
             overflow: hidden;
@@ -90,31 +87,31 @@ body {
             letter-spacing: .15em;
             animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
         }
-        /* Typing keyframes */
+        
         @keyframes typing {
             from { width: 0 }
             to { width: 100% }
         }
-        /* Cursor keyframes */
+        
         @keyframes blink-caret {
             from, to { border-color: transparent }
             50% { border-color: #333 }
         }
 
-/* Style for menu items */
+
 .top-menu a {
-  color: cadetblue; /* Stylish, subdued color for the text */
+  color: cadetblue;
   text-decoration: none;
-  margin: 0 15px; /* Adjust margin for even spacing around items */
-  padding: 10px 15px; /* Slightly larger padding for easier clickability */
-  border-radius: 5px; /* Rounded corners for a modern appearance */
-  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  margin: 0 15px;
+  padding: 10px 15px; 
+  border-radius: 5px; 
+  transition: background-color 0.3s ease;
 }
 
 /* Style for hover effect */
 .top-menu a:hover {
-  background-color: #007bff; /* Brighter color for hover for contrast */
-  color: white; /* White text for readability on hover */
+  background-color: #007bff; 
+  color: white; 
 }
 
 /* Header/Home */
@@ -129,7 +126,7 @@ header {
 #about {
   background-color: #fff;
   color: #333;
-  width: 60%; /* or any other value you prefer */
+  width: 60%;
 }
 
 /* Portfolio Section */
@@ -166,7 +163,7 @@ footer {
   }
   .section {
     padding: 20px;
-    flex-basis: 60%; /* Reduced from 45% to make it narrower */
+    flex-basis: 60%; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 10px;
     background: #fff;
@@ -234,14 +231,14 @@ footer {
   }
     .projects-container {
             padding: 20px;
-            max-width: 1200px; /* Control the max width of the grid */
-            margin: auto; /* This centers the container */
+            max-width: 1200px;
+            margin: auto;
     }
 
     .project-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr); /* Creates three columns */
-        grid-gap: 20px; /* Space between items */
+        grid-gap: 20px; 
     }
 
     .project {
@@ -251,8 +248,8 @@ footer {
         padding: 20px;
         margin: 20px 0;
         transition: transform 0.3s ease-in-out;
-        height: 400px; /* Adjust based on your content */
-        position: relative; /* This is necessary for absolute positioning of children */
+        height: 400px; 
+        position: relative; 
     }
 
     .project:hover {
@@ -431,9 +428,6 @@ footer {
         color: #555;
     }
 
-    /* Inline CSS does not support pseudo-classes like :hover. */
-    /* JavaScript will be used for interactive effects. */
-
 .projects-container {
     max-width: 1200px;
     margin: 40px auto;
@@ -498,8 +492,8 @@ footer {
 }
 
 .skills-section {
-    margin-top: 40px; /* Adds space above the section */
-    margin-bottom: 40px; /* Adds space below the section */
+    margin-top: 40px; x
+    margin-bottom: 40px; 
   }
 
 .text-color-1 { color: #FF0000; /* Red */ font-weight: bold; }
@@ -527,11 +521,11 @@ footer {
 }
 
 .icon-button.github {
-  background-color: #6e5494; /* Or any other color you prefer for GitHub */
+  background-color: #6e5494; 
 }
 
 .icon-button.resume {
-  background-color: #28a745; /* Or any other color you prefer for Resume */
+  background-color: #28a745;
 }
 
 .icon-button i {
@@ -539,17 +533,17 @@ footer {
 }
 
 .icon-button:hover {
-  background-color: #555; /* Hover effect */
+  background-color: #555; 
 }
 
 <!--project -->
-/* The container of the flip cards needs perspective */
+
 .projects-container {
   perspective: 1000px;
   margin: 40px auto;
   padding: 20px;
 }
-/* The flip container and its nested elements */
+
 .flip-container {
     cursor: pointer;
 }
@@ -590,3 +584,30 @@ footer {
     transform: rotateY(180deg);
 }
     </style>
+
+
+.project-link {
+  position: relative; /* Anchor for the tooltip positioning */
+  text-decoration: none; /* Optional: removes underline */
+}
+
+.project-link::after {
+  content: attr(data-tooltip); /* Use the content of the data-tooltip attribute */
+  position: absolute;
+  bottom: -25px; /* Adjust based on your layout */
+  left: 0;
+  white-space: nowrap;
+  visibility: hidden;
+  opacity: 0;
+  background-color: blue; /* Tooltip background color */
+  color: #fff; /* Tooltip text color */
+  padding: 5px;
+  border-radius: 5px;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.project-link:hover::after {
+  visibility: visible;
+  opacity: 1;
+}
+
