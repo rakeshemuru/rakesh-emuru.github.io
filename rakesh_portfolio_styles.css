@@ -80,7 +80,7 @@ body {
             background-size: cover;
             background-position: center;
             display: inline-block;
-            background-image: url('C:\\Users\\emuru\\Downloads\\rakesh-emuru-photo.png'); /* Add your image path here */
+            background-image: url('Images/rakesh-emuru-photo.png'); /* Add your image path here */
         }
         .typewriter h1 {
             overflow: hidden;
