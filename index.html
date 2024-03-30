@@ -1,32 +1,407 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+    <title>Rakesh Emuru | Data Scientist</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rakesh Emuru</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="C:\\Users\\emuru\\Downloads\\rakesh-emuru-photo.png">
+    <link rel="stylesheet" href="rakesh_portfolio_styles.css">
 </head>
 <body>
-    <header>
-        <nav id="navbar">
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="certifications.html">CERTIFICATIONS AND MOOCS</a></li>
-                <li><a href="projects.html">PROJECTS</a></li>
-                <li><a href="blog.html">BLOGS</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-                <li><a href="resume.pdf" target="_blank">RESUME</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div id="main-content">
-        <h1>I am Rakesh Emuru</h1>
-        <p>
-            Passionate data scientist with a solid academic background from the University of Delaware and hands-on experience across various industry projects. Proficient in all stages of the data science lifecycle, I thrive on extracting actionable insights from data. My contributions span text-as-data research and full-stack development, utilizing Python, machine learning, and data analysis to drive innovation. Demonstrated excellence through impactful achievements in previous roles. Eager to collaborate, innovate, and tackle complex challenges with data. Let's connect and explore opportunities together! Actively seeking new data science full-time and Internship opportunities to further enhance my skills.
-        </p>
 
-        <h2> Launching Portfolio newly in few hours by adding  new Accomplishments with new design </h2>
+<!-- Static top right menu bar to display the menu bar -->
+<div class="top-menu">
+    <a data-target="home" onmouseover="this.style.cursor='pointer'">Home</a>
+    <a data-target="about" onmouseover="this.style.cursor='pointer'">About Me</a>
+    <a data-target="skills" onmouseover="this.style.cursor='pointer'">My Skills</a>
+    <a data-target="projects" onmouseover="this.style.cursor='pointer'">Projects</a>
+    <a data-target="blogs" onmouseover="this.style.cursor='pointer'">Tech Blogs</a>
+    <a href="https://drive.google.com/file/d/1xbk20RUdJ4PuN_dm4GR_ivvfiEc9agd3/view?usp=sharing"
+       target="_blank" onmouseover="this.style.cursor='pointer'">Resume</a>
+    <a data-target="contact" onmouseover="this.style.cursor='pointer'">Contact</a>
+</div>
+
+
+<div class="w3-padding-large" id="main">
+    <header class="w3-container w3-padding-32 w3-center" id="home">
+        <div class="profile-picture"></div>
+
+
+        <h1 class="w3-jumbo"><span class="w3-hide-small" style="italic"></span>Rakesh Emuru.</h1>
+        <div class="typewriter">
+            <h1 id="message"></h1>
+        </div>
+
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <div class="icon-bar">
+            <!-- GitHub Link Button -->
+            <a href="https://github.com/rakesh-emuru" target="_blank" class="icon-button github">
+                <i class="fa fa-github"></i> GitHub
+            </a>
+
+            <!-- Resume Link Button -->
+            <a href="https://drive.google.com/file/d/1xbk20RUdJ4PuN_dm4GR_ivvfiEc9agd3/view" target="_blank"
+               class="icon-button resume">
+                <i class="fa fa-file-text"></i> Resume
+            </a>
+        </div>
+
+    </header>
+
+<!--  Rakesh Emuru Introduction -->
+    <div class="container" style="text-align: center;">
+        <div class="section" id="about"
+             style="background: linear-gradient(to right, #dbe3cb, #c9d7b6); color: #333; padding: 40px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); max-width: 800px; margin: auto; padding: 20px;">
+            <h2 style="color: brown; background-color: rgba(255, 255, 224, 0.8); display: inline-block; padding: 5px 10px; border-radius: 5px;">
+                About Me</h2>
+            <hr style="width: 200px; border-color: yellowgreen; margin-top: 10px; margin-bottom: 20px;">
+            <p style="text-align: left;">
+                After completing my undergraduate degree in Computer Science at JNTUA in India, I began my career as a
+                Trainee Software Developer at CovalenseDigital. There, I quickly proved my ability to navigate complex
+                challenges, developing key solutions such as a user interface for auto-generating database migration
+                files and the Csmart Payments Module. These early accomplishments, highlighted by receiving the Junior
+                Champion and SPOT Award, solidified my foundation in software and data science.
+            </p>
+            <p>
+                Advancing to a Full Stack Developer role at Trendlyne.com, my contributions drove significant
+                enhancements in user engagement and operational efficiency, evidenced by an 18% uplift in website visits
+                and mastery in automating data extraction processes for stock market analytics. This role honed my
+                skills in Python, Django, and SQL, and underscored my impact in a fast-paced, data-driven environment.
+            </p>
+            <p>
+                My transition to Data Science was cemented at the University of Delaware, where as a Research Assistant,
+                I led a complex project under Dr. Benjamin Bagozzi's guidance. I developed an automated pipeline for
+                processing unstructured text data, achieving a remarkable 92% accuracy in text classification, a feat
+                that underscored my technical prowess and innovative thinking. The culmination of this project was a
+                scientific research paper, showcasing my commitment to advancing the field of data science.
+            </p>
+            <h4 style="color: brown; background-color: rgba(255, 255, 224, 0.8); display: inline-block; padding: 5px 10px; border-radius: 5px; margin-top: 20px;">
+                <strong>Core Competencies:</strong></h4>
+            <ul style="text-align: left;">
+                <li style="margin-bottom: 10px;">Expertise in Programming Languages: Python, SQL, C, JavaScript, HTML,
+                    CSS
+                </li>
+                <li style="margin-bottom: 10px;">Advanced Data Science Skills: Machine Learning, NLP, Data
+                    visualization, and Statistical methods
+                </li>
+                <li style="margin-bottom: 10px;">Proficiency with Tools and Technologies: Django, MySQL, Git, REST APIs,
+                    Big Data (Spark)
+                </li>
+            </ul>
+            <p style="text-align: left;">
+                <span style="color: indigo;">Driven by a relentless pursuit of knowledge and excellence, I am eager to bring my analytical prowess, technical skills, and innovative mindset to a new challenge in the data science and software development arenas.</span>
+            </p>
+        </div>
     </div>
+
+    <!-- SKILLS SECTION -->
+    <div class="skills-section" id="skills">
+        <h2 style="color: brown; background-color: rgba(255, 255, 224, 0.8); display: inline-block; padding: 5px 10px; border-radius: 5px;">
+            Skills with Practical Knowledge</h2>
+        <div class="skill-image" style="text-align:center;">
+            <img src="C:\\Users\\emuru\\Downloads\\Rakesh Skills level.png" alt="Rakesh's Skills Level"
+                 style="width:999px; height:auto;">
+        </div>
+    </div>
+
+<!-- Rakesh Emuru Projects -->
+    <div class="projects-container" id="projects">
+        <h2 style="color: brown; background-color: rgba(255, 255, 224, 0.8); display: inline-block; padding: 5px 10px; border-radius: 5px;">
+            Projects</h2>
+        <div class="project-grid">
+            <div class="project">
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front">
+                            <img style="height:200px; width:200px;"
+                                 src="C:\\Users\\emuru\\Downloads\\Voter Turnout Percentage Analysis and Prediction.png"
+                                 alt="Project Image" class="project-image">
+                            <div class="project-category">Machine Learning</div>
+                            <h2 class="project-title">USA Voter Turnout Analysis and Prediction</h2>
+                        </div>
+                        <div class="back">
+                            <a href="https://github.com/rakesh-emuru/Data-Science/blob/main/Projects/NYC%20Stop%20and%20Frisk/Rakesh_Emuru_NYC_Stop_and_Frisk_predictors_of_outcomes.ipynb"
+                               target="_blank" class="project-link">
+                                <p class="project-description truncated">
+                                    Predicted County Level Voter Turnout by conducting comprehensive analysis
+                                    of U.S. voter turnout dynamics, including socio-economic factors, historical trends,
+                                    and policy
+                                    implications, while developing machine learning models to predict turnout for
+                                    informed policy
+                                    making.
+                                </p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="project">
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front">
+                            <img style="height:200px; width:200px;"
+                                 src="C:\\Users\\emuru\\Downloads\\donorschoose.jpeg"
+                                 alt="Project Image" class="project-image">
+                            <div class="project-category">NLP | Machine Learning</div>
+                            <h2 class="project-title">Educational Project Approval Prediction for DonorsChoose.org</h2>
+                        </div>
+                        <div class="back">
+                            <a href="https://github.com/rakesh-emuru/Data-Science/blob/main/Projects/NYC%20Stop%20and%20Frisk/Rakesh_Emuru_NYC_Stop_and_Frisk_predictors_of_outcomes.ipynb"
+                               target="_blank" class="project-link">
+                                <p class="project-description truncated">
+                                    Developed a machine learning model to predict DonorsChoose.org proposal
+                                    approvals, integrating data preprocessing, sentiment analysis, and advanced text
+                                    vectorization
+                                    with
+                                    multiple Classification algorithms.
+                                </p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front">
+                            <img style="height:200px; width:200px;"
+                                 src="C:\\Users\\emuru\\Downloads\\newyork_stop_and_frisk.png"
+                                 alt="Project Image" class="project-image">
+                            <div class="project-category">Computer Vision</div>
+                            <h2 class="project-title">Signature Authentication with Siamese Networks</h2>
+                        </div>
+                        <div class="back">
+                            <a href="https://github.com/rakesh-emuru/Data-Science/blob/main/Projects/NYC%20Stop%20and%20Frisk/Rakesh_Emuru_NYC_Stop_and_Frisk_predictors_of_outcomes.ipynb"
+                               target="_blank" class="project-link">
+                                <p class="project-description truncated">
+                                    Utilized a Siamese convolutional neural network approach to authenticate
+                                    signatures, distinguishing between genuine and forged examples with the application
+                                    of a Triplet
+                                    loss function.
+                                </p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front">
+                            <img style="height:200px; width:200px;"
+                                 src="C:\\Users\\emuru\\Downloads\\newyork_stop_and_frisk.png"
+                                 alt="Project Image" class="project-image">
+                            <div class="project-category">Machine Learning</div>
+                            <h2 class="project-title">Zip Codes Business Patterns: economic trends across
+                                geographies</h2>
+                        </div>
+                        <div class="back">
+                            <a href="https://github.com/rakesh-emuru/Data-Science/blob/main/Projects/NYC%20Stop%20and%20Frisk/Rakesh_Emuru_NYC_Stop_and_Frisk_predictors_of_outcomes.ipynb"
+                               target="_blank" class="project-link">
+                                <p class="project-description truncated">
+                                    This Citi Bike project examines the impact of New York City's expansive bike share
+                                    program on
+                                    urban living, focusing on usage patterns, community benefits, and the controversies
+                                    surrounding
+                                    service distribution and accessibility. It provides an in-depth analysis of
+                                    ridership behaviors
+                                    and seeks to understand the program's role in promoting healthier lifestyles and
+                                    alleviating
+                                    urban congestion.
+                                </p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front">
+                            <img style="height:200px; width:200px;"
+                                 src="C:\\Users\\emuru\\Downloads\\newyork_stop_and_frisk.png"
+                                 alt="Project Image" class="project-image">
+                            <div class="project-category">Machine Learning</div>
+                            <h2 class="project-title">Ridership of Urban Bike Shares: the case of Citi Bike in NYC</h2>
+                        </div>
+                        <div class="back">
+                            <a href="https://github.com/rakesh-emuru/Data-Science/blob/main/Projects/NYC%20Stop%20and%20Frisk/Rakesh_Emuru_NYC_Stop_and_Frisk_predictors_of_outcomes.ipynb"
+                               target="_blank" class="project-link">
+                                <p class="project-description truncated">
+                                    This project delves into the evolving landscape of New York City's commercial
+                                    sectors by
+                                    analyzing the spatio-temporal trends of business distribution across different zip
+                                    codes,
+                                    reflecting the city’s dynamic economic changes."
+                                </p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front">
+                            <img style="height:200px; width:200px;"
+                                 src="C:\\Users\\emuru\\Downloads\\newyork_stop_and_frisk.png"
+                                 alt="Project Image" class="project-image">
+                            <div class="project-category">Machine Learning</div>
+                            <h2 class="project-title">Outcomes of gentrification in Philedelphia</h2>
+                        </div>
+                        <div class="back">
+                            <a href="https://github.com/rakesh-emuru/Data-Science/blob/main/Projects/NYC%20Stop%20and%20Frisk/Rakesh_Emuru_NYC_Stop_and_Frisk_predictors_of_outcomes.ipynb"
+                               target="_blank" class="project-link">
+                                <p class="project-description truncated">
+                                    This project analyzes gentrification in Philadelphia, examining shifts in median
+                                    income and
+                                    white population from 2000 to 2016, and highlights the socio-economic impacts on
+                                    affected
+                                    neighborhoods.
+                                </p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front">
+                            <img style="height:200px; width:200px;"
+                                 src="C:\\Users\\emuru\\Downloads\\newyork_stop_and_frisk.png"
+                                 alt="Project Image" class="project-image">
+                            <div class="project-category">Machine Learning</div>
+                            <h2 class="project-title">Predicting Diabetes Risk in Homogeneous Populations</h2>
+                        </div>
+                        <div class="back">
+                            <a href="https://github.com/rakesh-emuru/Data-Science/blob/main/Projects/NYC%20Stop%20and%20Frisk/Rakesh_Emuru_NYC_Stop_and_Frisk_predictors_of_outcomes.ipynb"
+                               target="_blank" class="project-link">
+                                <p class="project-description truncated">
+                                    This project leverages Logistic Regression to predict the likelihood of diabetes
+                                    among the Pima
+                                    Indian population using health metrics, providing insights into the prevalence of
+                                    diabetes based
+                                    on a longitudinal study.
+                                </p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front">
+                            <img style="height:200px; width:200px;"
+                                 src="C:\\Users\\emuru\\Downloads\\newyork_stop_and_frisk.png"
+                                 alt="Project Image" class="project-image">
+                            <div class="project-category">Machine Learning</div>
+                            <h2 class="project-title">NYC Stop and Frisk: predictors of outcomes</h2>
+
+                        </div>
+                        <div class="back">
+                            <a href="https://github.com/rakesh-emuru/Data-Science/blob/main/Projects/NYC%20Stop%20and%20Frisk/Rakesh_Emuru_NYC_Stop_and_Frisk_predictors_of_outcomes.ipynb"
+                               target="_blank" class="project-link">
+                                <p class="project-description truncated">
+                                    The project applies a Random Forest algorithm to predict weapon discovery in NYPD
+                                    Stop, Question, and Frisk incidents, critically evaluating the program's impact on
+                                    public safety and civil rights.
+                                </p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--    Blogs   -->
+    <h2 id="blogs"
+        style="color: brown; background-color: rgba(255, 255, 224, 0.8); display: inline-block; padding: 5px 10px; border-radius: 5px;">
+        Blogs</h2>
+    <div class="blogs-container">
+        <div class="blog-grid">
+            <!-- Blog 1 -->
+            <div class="blog">
+                <div class="blog-header">Machine Learning</div>
+                <h3 class="blog-content">What is Batch Normalization? Why It’s Not Batch Standardization?</h3>
+                <p class="blog-footer">3 min read - 6 days ago</p>
+                <a href="https://medium.com/@emururakesh/what-is-batch-normalization-why-its-not-batch-standardization-9b9f71d9821a"
+                   target="_blank" class="read-more">Read more</a>
+            </div>
+
+            <!-- Blog 2 -->
+            <div class="blog">
+                <div class="blog-header">Machine Learning</div>
+                <h3 class="blog-content">Understanding Linear Regression</h3>
+                <p class="blog-footer">6 min read - Sep 17, 2023</p>
+                <a href="https://medium.com/@emururakesh/understanding-linear-regression-in-depth-core-concepts-and-techniques-51e8d1840ff8"
+                   target="_blank" class="read-more">Read more</a>
+            </div>
+
+            <!-- Blog 3 -->
+            <div class="blog">
+                <div class="blog-header">Machine Learning</div>
+                <h3 class="blog-content">Analysis of Voter Turnout in the USA</h3>
+                <p class="blog-footer">Read the full Colab Notebook for insights</p>
+                <a href="https://medium.com/@emururakesh/analysis-of-voter-turnout-in-the-usa-cafe44f4d15f"
+                   target="_blank" class="read-more">Read more</a>
+            </div>
+        </div>
+    </div>
+    <div class="contact-section" id="contact">
+        <h2 class="contact-title">Get in Touch</h2>
+
+        <!-- Mobile Contact -->
+        <div class="contact-item">
+            <a href="tel:+13024201330" class="contact-link">
+                <i class="fa fa-phone contact-icon"></i>
+                <span class="contact-text">+1 (302) 420 1330</span>
+            </a>
+        </div>
+
+        <!-- Email Contact -->
+        <div class="contact-item">
+            <a href="mailto:emururakesh@gmail.com" class="contact-link">
+                <i class="fa fa-envelope contact-icon"></i>
+                <span class="contact-text">emururakesh@gmail.com</span>
+            </a>
+        </div>
+
+        <!-- LinkedIn Contact -->
+        <div class="contact-item">
+            <a href="https://www.linkedin.com/in/rakesh-emuru/" class="contact-link" target="_blank">
+                <i class="fa fa-linkedin contact-icon"></i>
+                <span class="contact-text">LinkedIn Profile</span>
+            </a>
+        </div>
+
+        <!-- Instagram Contact -->
+        <div class="contact-item">
+            <a href="https://www.instagram.com/ra.kesh4784/" class="contact-link" target="_blank">
+                <i class="fa fa-instagram contact-icon"></i>
+                <span class="contact-text">@ra.kesh4784/</span>
+            </a>
+        </div>
+
+        <!-- GitHub Contact -->
+        <div class="contact-item">
+            <a href="https://github.com/rakesh-emuru" class="contact-link" target="_blank">
+                <i class="fa fa-github contact-icon"></i>
+                <span class="contact-text">GitHub Profile</span>
+            </a>
+        </div>
+
+    </div>
+</div>
+
+<script src="rakesh_portfolio_script.js"></script>
+
 </body>
 </html>
