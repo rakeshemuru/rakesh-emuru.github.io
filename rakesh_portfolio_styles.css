@@ -190,12 +190,12 @@ footer {
         position: relative;
     }
     .value-proposition li::before {
-        content: '✔'; /* Unicode for heavy check mark */
+        content: '✔'; 
         color: green;
         position: absolute;
         left: 0;
-        top: 0; /* Adjust if necessary to center the check mark vertically */
-        font-size: 24px; /* Larger font size for bigger check mark */
+        top: 0;
+        font-size: 24px; 
     }
 
   .about-section {
@@ -625,42 +625,6 @@ footer {
   opacity: 1;
 }
 
-/* Value Proposition Section */
-.value-proposition {
-  background-color: #ffffff; /* Adjust background color to fit your design */
-  color: #333; /* Text color */
-  text-align: left; /* Align text to the left */
-  padding: 20px; /* Add some padding */
-  border-radius: 8px; /* Rounded corners */
-  margin: 40px auto; /* Center it horizontally with some margin */
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Soft shadow for depth */
-  max-width: 800px; /* Don't let the section stretch too wide */
-}
 
-.value-proposition h2 {
-  text-align: center; /* Center the heading */
-  color: #007bff; /* Color for the heading */
-  margin-bottom: 20px; /* Space after heading */
-}
-
-.value-proposition ol {
-  list-style: none; /* Remove default list styling */
-  padding-left: 0; /* Align with the container */
-}
-
-.value-proposition li {
-  position: relative; /* Allows absolute positioning of the bullet span */
-  padding-left: 20px; /* Space for the bullet */
-  margin-bottom: 10px; /* Space between list items */
-  font-family: cursive;
-  color: navy;
-}
-
-.value-proposition li span {
-  position: absolute; /* Absolute position the bullet */
-  left: 0; /* Align bullet to the left */
-  font-weight: bold; /* Optionally make the bullet bold */
-  color: #007bff; /* Bullet color */
-}
 
 </style>
