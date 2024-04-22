@@ -174,6 +174,34 @@ footer {
     }
   }
 
+_-----------------------
+ .value-proposition {
+        font-family: Arial, sans-serif;
+        margin-left: 20px;
+    }
+    .value-proposition h2 {
+        font-weight: 700;
+    }
+    .value-proposition ol {
+        list-style: none;
+        padding: 0;
+    }
+    .value-proposition li {
+        margin-bottom: 10px;
+        padding-left: 40px;
+        position: relative;
+    }
+    .value-proposition li::before {
+        content: '✔'; 
+        color: green;
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: 24px; 
+    }
+
+
+
 /* Value Proposition Section */
 .value-proposition {
   background-color: #ffffff; /* Adjust background color to fit your design */
@@ -185,7 +213,7 @@ footer {
   box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Soft shadow for depth */
   max-width: 800px; /* Don't let the section stretch too wide */
   font-family: Arial, sans-serif;
-  margin-left: 20px;
+  margin-left: 580px;
 }
 
 .value-proposition h2 {
