@@ -173,7 +173,29 @@ footer {
       flex-basis: 100%;
     }
   }
-
+ .value-proposition {
+        font-family: Arial, sans-serif;
+        margin-left: 20px;
+    }
+    .value-proposition h2 {
+        font-weight: 700;
+    }
+    .value-proposition ol {
+        list-style: none;
+        padding: 0;
+    }
+    .value-proposition li {
+        margin-bottom: 10px;
+        padding-left: 30px;
+        position: relative;
+    }
+    .value-proposition li::before {
+        content: '✔'; /* Unicode for heavy check mark */
+        color: green;
+        position: absolute;
+        left: 0;
+        font-size: large;
+    }
   .about-section {
     font-family: Arial, sans-serif;
     max-width: 800px;
