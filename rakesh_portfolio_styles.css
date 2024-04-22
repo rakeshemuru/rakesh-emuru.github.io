@@ -186,14 +186,13 @@ footer {
     }
     .value-proposition li {
         margin-bottom: 10px;
-        padding-left: 40px; /* Increased padding to accommodate larger check marks */
+        padding-left: 40px;
         position: relative;
     }
     .value-proposition li::before {
         content: '✔'; /* Unicode for heavy check mark */
         color: green;
         position: absolute;
-        padding-left: 40px;
         left: 0;
         top: 0; /* Adjust if necessary to center the check mark vertically */
         font-size: 24px; /* Larger font size for bigger check mark */
