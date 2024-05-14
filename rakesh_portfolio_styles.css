@@ -1,4 +1,51 @@
 <style>
+/* Base styles go here (apply to all devices) */
+
+/* Smaller devices (phones, less than 768px) */
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+    .top-menu a {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+    .section {
+        padding: 20px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        font-size: 16px;
+    }
+    .top-menu a {
+        padding: 15px 20px;
+        font-size: 18px;
+    }
+    .section {
+        padding: 30px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    body {
+        font-size: 18px;
+    }
+    .top-menu a {
+        padding: 20px 25px;
+        font-size: 20px;
+    }
+    .section {
+        padding: 40px;
+    }
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
 
     @keyframes slideFadeIn {
   0% {
